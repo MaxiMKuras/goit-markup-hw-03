@@ -20,7 +20,8 @@ h5,
 h6, 
 p {margin: 0;}
 
-a {text-decoration: none;}
+a {text-decoration: none;
+display: block;}
 
 /* common */
 
@@ -28,6 +29,7 @@ a {text-decoration: none;}
   max-width: 1158px;
   padding: 0 15px;
   margin:  0 auto;}
+
 
 .page-header {
 border-bottom: 1px solid #e7e9fc;}
@@ -78,7 +80,6 @@ border-bottom: 1px solid #e7e9fc;}
   padding: 0; 
   margin: 0;
   justify-content: center;
-  
   }
 
 
@@ -108,11 +109,22 @@ gap: 40px;}
   color: #404bbf;}
 
 /* Section styles */
-.section-1 {
-  background-color: #2e2f42;}
+.hero-section {
+  background-color: #2e2f42;
+  padding: 0 0;}
+
+  /* Контейнер */ 
+  .container { max-width: 100%; padding: 0 15px; margin: 0 auto; }
+   /* Заголовок */ 
+   .hero-title { max-width: 496px; font-size: 56px; line-height: 1.07; text-align: center; letter-spacing: 0.02em; color: #ffffff; margin: 0 auto; }
+    /* Кнопка */ .hero-button { display: block; min-width: 169px; height: 56px; border: none; background-color: var(--button-color, #4d5ae5); border-radius: 4px; cursor: pointer; font-family: "Roboto", sans-serif; font-weight: 500; font-size: 16px; line-height: 1.5; letter-spacing: 0.04em; color: #ffffff; text-align: center; margin: 20px auto 0;/* Центрування кнопки */ } 
+       /* Додаткові стилі для перевірки відступів */ 
+       .section { outline: 1px solid red; /* Для візуальної перевірки */ } 
+       .container { outline: 1px solid blue; /* Для візуальної перевірки */} 
+
 
 .section-title {
-  font-size: 56px;
+  font-size: 15px;
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
